@@ -3,7 +3,7 @@ import Image from "next/image";
 import ContactButton from "./ContactButton";
 import CvButton from "./CvButton";
 
-import aboutPic from "../../../public/about-pic.jpg"
+import aboutPic from "../../../public/about-pic.png"
 
 export default function About() {
     return  <section id="about" className="flex flex-col items-center gap-5 md:gap-10 mb-90 2xl:mb-90 [@media(min-width:1700px)]:mb-60 [@media(min-width:2000px)]:mb-50 [@media(min-width:2100px)]:mb-70 [@media(min-width:2200px)]:mb-50 [@media(min-width:2300px)]:mb-30 [@media(min-width:2500px)]:mb-10 h-fit">
