@@ -13,6 +13,7 @@ export default function SkillsOrbit() {
         { name: "Tailwind", icon: "/icons/tailwindcss.svg" },
         { name: "TypeScript", icon: "/icons/typescript.svg" },
         { name: "Git", icon: "/icons/git.svg" },
+        { name: "AWS S3", icon: "/icons/AWS-S3.svg" },
   ];
 
   const containerRef = useRef(null);
